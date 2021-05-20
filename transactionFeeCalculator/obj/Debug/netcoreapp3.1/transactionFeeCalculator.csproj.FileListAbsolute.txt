@@ -1,0 +1,13 @@
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\bin\Debug\netcoreapp3.1\transactionFeeCalculator.exe
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\bin\Debug\netcoreapp3.1\transactionFeeCalculator.deps.json
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\bin\Debug\netcoreapp3.1\transactionFeeCalculator.runtimeconfig.json
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\bin\Debug\netcoreapp3.1\transactionFeeCalculator.runtimeconfig.dev.json
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\bin\Debug\netcoreapp3.1\transactionFeeCalculator.dll
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\bin\Debug\netcoreapp3.1\transactionFeeCalculator.pdb
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\obj\Debug\netcoreapp3.1\transactionFeeCalculator.csprojAssemblyReference.cache
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\obj\Debug\netcoreapp3.1\transactionFeeCalculator.AssemblyInfoInputs.cache
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\obj\Debug\netcoreapp3.1\transactionFeeCalculator.AssemblyInfo.cs
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\obj\Debug\netcoreapp3.1\transactionFeeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\obj\Debug\netcoreapp3.1\transactionFeeCalculator.dll
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\obj\Debug\netcoreapp3.1\transactionFeeCalculator.pdb
+C:\Users\amade\source\repos\transactionFeeCalculator\transactionFeeCalculator\obj\Debug\netcoreapp3.1\transactionFeeCalculator.genruntimeconfig.cache
