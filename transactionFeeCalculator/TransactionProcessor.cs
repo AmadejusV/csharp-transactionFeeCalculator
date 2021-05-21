@@ -17,22 +17,26 @@ namespace transactionFeeCalculator
                     {
                         transactionCount++;
                     }
-
-                    string[] words = transaction.Split(" ");
-                    string[] givenDate = words[0].Split("-");
-                    int[] nums = new int[3];
-                    string merchant = words[1].ToUpper();
-                    //Console.WriteLine(merchant);
-
-                    double additionalDiscount = CountAdditionalDiscount(transactionCount);
-                    double merchantDiscount = CountMerchantDiscount(merchant);
-                    nums = RemoveDateZeros(givenDate, nums);
-                    bool weekend = isWeekend(nums);
-                    double fee = CalculateTransactionFee(words, merchantDiscount, additionalDiscount, weekend);
-
-                    writer.WriteLine($"{words[0]} {words[1]} {fee}");
+                    PrintTransactionsToFile(transaction, transactionCount, writer);
                 }
             }
+        }
+
+        public static void PrintTransactionsToFile(string transaction, int transactionCount, StreamWriter writer)
+        {
+            string[] words = transaction.Split(" ");
+            string[] givenDate = words[0].Split("-");
+            int[] nums = new int[3];
+            string merchant = words[1].ToUpper();
+            //Console.WriteLine(merchant);
+
+            double additionalDiscount = CountAdditionalDiscount(transactionCount);
+            double merchantDiscount = CountMerchantDiscount(merchant);
+            nums = RemoveDateZeros(givenDate, nums);
+            bool weekend = isWeekend(nums);
+            double fee = CalculateTransactionFee(words, merchantDiscount, additionalDiscount, weekend);
+
+            writer.WriteLine($"{words[0]} {words[1]} {fee}");
         }
 
         public static double CalculateTransactionFee(string[] stringArray, double merchantDiscount, double additionalDiscount, bool isWeekend)
